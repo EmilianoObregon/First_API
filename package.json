@@ -14,6 +14,7 @@
   "author": "Emiliano Aquetzalli Obregon Reyes",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mysql2": "^2.3.3"
   },
