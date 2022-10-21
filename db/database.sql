@@ -12,6 +12,12 @@ CREATE TABLE employee(
     PRIMARY KEY (id)
 );
 
+CREATE TABLE task(
+	id INT(11) NOT NULL auto_increment,
+    name VARCHAR(30) default null,
+    description varchar(255) default null
+);
+
 SHOW tables;
 DESCRIBE employee;
 
